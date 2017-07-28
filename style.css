@@ -1,0 +1,159 @@
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+html,body{
+    color:#444; 
+    font-family: 'Spoqa Han Sans', sans-serif;
+    font-size:13px;
+    margin: 0 auto;
+}
+
+
+/*헤더영역*/
+.header{
+    position: fixed;
+	z-index: 9999;
+    background-color:#fff;
+    width: 100%;
+    padding: 20px 0;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+    .rogo{
+        max-width: 980px;
+        margin: auto 25px;
+        height:32px;
+        background-image:url(source/title.png);
+        background-repeat: no-repeat;
+    }
+
+   .category{
+        position: absolute;
+        background-image:url(source/category.png);
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+        top:31%;
+        right: 25px;
+    }
+
+
+
+
+/*탑 영역*/
+.main_img{
+    height:400px;
+    padding-top: 70px;
+    background-image: url(source/main_IMG.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	font-family:'Spoqa Han Sans', sans-serif;
+}   
+    .title_text{
+        width: 100%;
+        text-align: center;
+        font-size: 50px;
+        margin-top: 150px;
+        color:#fff;
+    }
+    .body_text{
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        margin-top: 6px;
+        color:#fff;
+    }
+
+
+
+
+/*컨텐츠영역*/
+.contents{
+    max-width: 980px;
+    margin: 0 auto;
+	font-family:'Spoqa Han Sans', sans-serif;
+}
+
+    h1{
+        margin: 30px 25px 0;
+        color:black;
+        font-size:32px;
+		font-weight:bold;
+        letter-spacing:-0.05em;
+    }
+
+    h3{
+        margin: 10px 25px;
+		font-size:16px;
+        font-weight:bold;
+    }
+
+    .cover{
+        height:400px;
+        background-image: url(source/IMG_3742.JPG);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .paragraph-blue{color:#2ac1bc}
+    
+    .wrap{
+		margin: 20px 25px;
+	}
+
+   .body-text{
+	    font-size: 14px;
+	    letter-spacing:0em; 
+		line-height:1.6em;
+		text-align: justify;
+		margin-bottom: 40px;
+		}
+
+	strong{font-weight: bold;}
+
+
+
+/*푸터영역*/
+.footer{
+    position: relative;
+    background-color:black;
+    max-width: 100%;
+	margin-top: 60px;
+    padding: 30px 30px;
+}
+
+    .footer_img{
+        position: relative;
+        max-width: 920px;
+        margin:0 auto;
+        height:96px;
+        background-image:url(source/footer_logo.png);
+        background-repeat: no-repeat;
+    }
+
+    .footer_text1{
+        position: absolute;
+        top:28px;
+        left: 55%;
+        margin-left: -43px;
+        color:#888;
+    }
+    .footer_text1 span{
+        display: block;
+        margin-bottom: 10px;
+    }
+/*
+    .footer_text2{
+        position: absolute;
+        top:12px;
+        left: 85%;
+        margin-left: -43px;
+        color:#888;
+    }
+    .footer_text2 span{
+*/
+        display: block;
+        margin-bottom: 8px;
+    }
