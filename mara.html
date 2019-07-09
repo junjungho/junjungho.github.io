@@ -1,0 +1,106 @@
+<html>
+	<head>
+		<title>Rain</title>
+	</head>
+
+<body>
+    
+    <div class="rain">
+        <img src="images/eventPage_01.png">
+        <img src="images/eventPage_02.gif">
+        <img src="images/eventPage_03.jpg">
+        <img src="images/eventPage_04.jpg">
+        <img src="images/eventPage_05.jpg">
+    </div>
+
+</body>
+</html>
+
+<style>
+    
+    
+    body
+        {
+            padding:0;
+            margin:0;
+            background: url(images/eventPage_bg.jpg);
+            background-size: cover;
+        } 
+
+
+        .rain
+			{
+				height: 100%;
+				background: url(images/rain.png);
+				animation: rain .3s linear infinite;
+			}
+
+
+        .rain:before
+            {
+                content: '';
+                position:absolute;
+                width:100%;
+                height:100%;
+                background: white;
+                animation: lighting 4s linear infinite;
+                opacity:0;
+            }  
+
+
+
+		@keyframes rain 
+		{
+			0%
+			{
+				background-position: 0% 0%;
+			}
+
+			100%
+			{
+				background-position: 20% 100%;
+			}
+		} 
+
+
+/*
+
+		@keyframes lighting
+		{
+			0%
+			{
+				opacity:0;
+			}
+			10%
+			{
+				opacity:0;
+			}
+			11%
+			{
+				opacity:1;
+			}
+			14%
+			{
+				opacity:0;
+			}
+			20%
+			{
+				opacity:0;
+			}
+			21%
+			{
+				opacity:1;
+			}
+			24%
+			{
+				opacity:0;
+			}
+			104%
+			{
+				opacity:0;
+			}
+		} 
+
+*/
+
+</style>
